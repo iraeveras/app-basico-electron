@@ -2,13 +2,15 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 800,
+        width: 400,
         height: 600,
         webPreferences: {
             nodeIntegration: true, // Permite uso do Node.js no renderer
             contextIsolation: false // Importante para integração com bibliotecas
         }
     });
+
+    win.removeMenu()
 
     win.loadFile('src/renderer/index.html');
 

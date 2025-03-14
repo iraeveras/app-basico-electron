@@ -1,0 +1,55 @@
+/* Estilo para o body: centraliza o conteúdo e define uma cor de fundo */
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do formulário: fundo branco, bordas arredondadas e sombra */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+/* Cabeçalho do formulário */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels e inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão de envio */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c9ded;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #468cd4;
+}
